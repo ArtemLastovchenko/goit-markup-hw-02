@@ -9,10 +9,13 @@ li {
   list-style-type: none;
 }
 
-.logo {
+.logo .link {
   color: var(--brandcolor);
 }
 
+.logo .link:hover {
+  color: var(--brandcolor);
+}
 .bar-link .link {
   color: var(--brandcolor);
 }
@@ -21,12 +24,28 @@ li {
 .bar-link .link:focus {
   color: #2196f3;
 }
+.contacts-link {
+  color: var(--brandcolor);
+}
+.contacts-link:hover,
+.contacts-link :focus {
+  color: #2196f3;
+}
 
 .title-heroy {
   color: var(--brandcolor);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-align: center;
+}
+
+.button-heroy {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87px;
 }
 
 .features-title {
@@ -41,4 +60,11 @@ li {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+}
+/* Footer */
+.contacts-footer .link {
+  color: #212121;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
