@@ -13,12 +13,16 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.body{
+  cursor: pointer;
+}
 li {
   list-style-type: none;
 }
 .link {
   text-decoration: none;
 }
+
 /* ------------NAV------------ */
 .logo {
   font-family: "Raleway";
