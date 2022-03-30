@@ -149,7 +149,60 @@ li {
 /* -----------TEAM-------------- */
 
 /* -----------FOOTER------------ */
+.basement {
+  background: #2f303a;
+}
+.basement-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--brandcolor);
+}
+.basement-logo-web {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
 
+.basement-location {
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--first-title-color)
+}
+.basement-contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.basement-contacts-link:hover,
+.basement-contacts-link:focus {
+  color: #2196f3;
+}
+}
+.basement-contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.basement-contacts-link :hover,
+.basement-contacts-link :focus {
+  color: #2196f3;
+}
+
+*/
 /* -----------PORTFOLIO------------ */
 
 .filter {
