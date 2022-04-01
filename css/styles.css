@@ -189,7 +189,6 @@ li {
 }
 
 .basement-location {
-  font-family: "Roboto";
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -209,7 +208,6 @@ li {
 }
 
 .basement-contacts-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -234,6 +232,7 @@ li {
 }
 
 .filter-button-link {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
